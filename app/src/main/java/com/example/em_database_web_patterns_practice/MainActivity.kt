@@ -10,7 +10,6 @@ import com.example.em_database_web_patterns_practice.databinding.ActivityMainBin
 import com.example.em_database_web_patterns_practice.presentation.Task_1.Task_1_Activity
 import com.example.em_database_web_patterns_practice.presentation.Task_2.Task_2_Activity
 import com.example.em_database_web_patterns_practice.presentation.Task_3.Task_3_Activity
-import com.example.em_database_web_patterns_practice.presentation.Task_4.Task_4_Activity
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,9 +30,9 @@ class MainActivity : AppCompatActivity() {
             btnTask3.setOnClickListener {
                 startActivity(Intent(this@MainActivity, Task_3_Activity::class.java))
             }
-            btnTask4.setOnClickListener {
-                startActivity(Intent(this@MainActivity, Task_4_Activity::class.java))
-            }
+//            btnTask4.setOnClickListener {
+//                startActivity(Intent(this@MainActivity, MaTask_4_Activity::class.java))
+//            }
         }
     }
 }

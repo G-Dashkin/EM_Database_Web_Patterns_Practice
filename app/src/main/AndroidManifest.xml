@@ -13,9 +13,6 @@
         android:theme="@style/Theme.EM_Database_Web_Patterns_Practice"
         tools:targetApi="31">
         <activity
-            android:name=".presentation.Task_4.Task_4_Activity"
-            android:exported="false" />
-        <activity
             android:name=".presentation.Task_3.Task_3_Activity"
             android:exported="false" />
         <activity
