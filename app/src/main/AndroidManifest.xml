@@ -12,17 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EM_Database_Web_Patterns_Practice"
         tools:targetApi="31">
+
         <activity
-            android:name=".presentation.Task_3.Task_3_Activity"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.Task_2.Task_2_Activity"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.Task_1.Task_1_Activity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".presentation.Task_1.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
